@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f4e4ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.main{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 50vh;
+    width:55vh;
+}
+.main h1{
+    text-align: center;
+}
+.icon i{
+    margin-top: 1rem;
+}
+form select ,input ,button{
+    border: none;
+    outline: none;
+    width:100%;
+    padding-left: 8px;
+    border-radius: 0.7rem;
+}
+form select{
+    border: 2px solid rgb(255, 0, 106);
+    height:2rem;
+    cursor: pointer;
+}
+select option{
+   background-color: lightpink;
+   cursor: pointer;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.amount{
+    margin-top: 1rem;
+}
+input[type="text"]{
+    margin-top: 4px;
+    height:2rem;
+    border:1px solid brown;
+}
+input[type="text"]:hover{
+    border:2px solid red;
+}
+.ans{
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+}
+button{
+    margin-top: 1.5rem;
+    border: 1px solid brown;
+    border-radius: 1rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: rgb(191, 241, 191);
+    font-weight: 600;
+}
+button:hover{
+    background-color:rgb(133, 248, 133);
+    font-weight: 700;
+    box-shadow: 1px 1px 2px rgb(103, 101, 101) ,0 0 25px rgb(69, 69, 234), 0 0 5px rgb(54, 54, 166);
+}
+img{
+    width:2rem;
+}
