@@ -40,6 +40,7 @@ btn.addEventListener("click",async(evt)=>{
     if(amtval=="" ||amtval<1){
         amtval=1;
     }
+    
     let URL=`${BASE_URL}${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
     let response=await fetch(URL);
     let data=await response.json();
